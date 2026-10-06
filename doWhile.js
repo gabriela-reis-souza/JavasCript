@@ -1,8 +1,8 @@
 let numero = 1 ;
 let soma = 0 ;
 do {
-    soma + = numero ;
+    soma += numero ;
     numero ++ ;
 } while(numero <= 5);
-console.log(" a soma dos numeros 1 a 5 e:,"soma);
+console.log("a soma dos numeros 1 a 5 e:", soma);
 // a soma dos numeros de 1 a 5 e:15
